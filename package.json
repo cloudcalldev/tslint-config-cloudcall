@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-cloudcall",
-  "version": "5.14.2",
+  "version": "5.14.3",
   "description": "A TSLint config used by CloudCall",
   "main": "tslint.json",
   "author": "CloudCall Development <development@cloudcall.com>",
