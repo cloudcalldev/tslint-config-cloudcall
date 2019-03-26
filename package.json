@@ -1,0 +1,15 @@
+{
+  "name": "tslint-config-cloudcall",
+  "version": "5.14.0",
+  "description": "The TSLint used by CloudCall",
+  "main": "tslint.json",
+  "author": "CloudCall Development <development@cloudcall.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "peerDependencies": {
+    "tslint": "^5.11.0"
+  }
+}

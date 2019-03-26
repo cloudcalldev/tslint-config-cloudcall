@@ -1,0 +1,81 @@
+{
+    "defaultSeverity": "warn",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "member-ordering": [
+            false
+        ],
+        "member-access": true,
+        "no-any": false,
+        "no-magic-numbers": true,
+        "no-non-null-assertion": true,
+        "no-var-requires": true,
+        "only-arrow-functions": [
+            true,
+            "allow-declarations"
+        ],
+        "prefer-for-of": false,
+        "curly": [
+            true,
+            "ignore-same-line"
+        ],
+        "no-bitwise": false,
+        "no-console": [
+            true,
+            "warn",
+            "error"
+        ],
+        "no-empty": true,
+        "no-eval": true,
+        "no-shadowed-variable": true,
+        "no-unused-expression": [
+            true,
+            "allow-fast-null-checks"
+        ],
+        "no-var-keyword": true,
+        "prefer-object-spread": true,
+        "radix": false,
+        "triple-equals": true,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "max-classes-per-file": [
+            true,
+            1
+        ],
+        "max-file-line-count": [
+            true,
+            650
+        ],
+        "max-line-length": [
+            true,
+            170
+        ],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "class-name": true,
+        "space-before-function-paren": false,
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "file-name-casing": [true, "camel-case"],
+        "no-implicit-dependencies": [true, "dev"]
+    },
+    "rulesDirectory": []
+}
